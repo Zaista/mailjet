@@ -1,0 +1,16 @@
+{
+    "name": "zaista/mailjet",
+    "description": "Mailjet server",
+    "version": "1.0.0",
+    "require": {
+        "mailjet/mailjet-apiv3-php": "^1.5",
+        "vlucas/phpdotenv": "^5.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zaista",
+            "email": "ilicjovan89@gmail.com"
+        }
+    ]
+}
