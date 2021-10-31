@@ -4,7 +4,7 @@
     use Google\Cloud\SecretManager\V1\SecretManagerServiceClient;
     use \Mailjet\Resources;
 
-    if (!empty($_ENV['GAE_ENV'])) {
+    if (empty($_ENV['GAE_ENV'])) {
         // local environment
         $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
         $dotenv->load();
